@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;
+	
+}
+body{
+	background-color: pink;
+	border: 4px dotted gray;
+}
+
+.center{
+	text-align: center;
+}
+
+.box{
+
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+header{
+	margin-bottom: 30px;
+}
+footer{
+	width: 100%;
+	border: 1px solid red;
+	background-color: gold;
+	color: black;
+}
+p{
+	text-align: center;
+}
+
+a{
+	
+	background-color: brown;
+	color: white;
+	font-family: Comic Sans Ms;
+	font-size: 50 px;
+	text-decoration: none;
+}
+#content{
+	
+	color: black;
+	font-family: cursive;
+
+}
+
+p#hide{
+	
+	height: 400px;
+	overflow-y: scroll;
+}
+table, th, td{
+	border: 1px solid black;
+
+}
+th{
+	background-color: black;
+	color: white;
+}
+.foot-1{
+	display: inline-block;
+	float: left;
+	padding-left: 5%;
+}
+.foot-2{
+	display: inline-block;
+	padding-left: 30%;
+	
+}
+.foot-3{
+	display: inline-block;
+	float: right;
+	padding-right: 5%;
+}
+a{
+	margin: 10px;
+	padding: 5px;
+}
